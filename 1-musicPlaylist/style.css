@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(228, 241, 225);
+}
+.screen {
+  background: linear-gradient(white, skyblue);
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.screen .header .header-me {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.screen .header .header-me .wifi {
+  margin-left: 180px;
+}
+.screen .main {
+  cursor: pointer;
+}
+.screen .main .poster {
+  width: 280px;
+  height: 270px;
+  margin: 0 auto;
+}
+.screen .main .track-heart {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.screen .main .track-heart i {
+  transition: color 0.2s ease-out;
+}
+.screen .main .track-heart i:hover {
+  color: hotpink;
+}
+
+.screen .main .play-bar {
+  width: 280px;
+  height: 2px;
+  background-color: darkgray;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.screen .main .play-bar .bar {
+  position: relative;
+}
+.screen .main .step {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+.screen .main .step .step-me {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.screen .main .step .step-me .fa-shuffle {
+  transition: color 0.2s ease-out;
+}
+.screen .main .step .step-me .fa-shuffle:hover {
+  color: darkgrey;
+}
+
+.screen .main .step .step-me .fa-backward-step {
+  font-size: 23px;
+  transition: color 0.2s ease-out;
+}
+.screen .main .step .step-me .fa-backward-step:hover {
+  color: darkgrey;
+}
+.screen .main .step .step-me .fa-circle-play {
+  transition: color 0.2s ease-out;
+}
+.screen .main .step .step-me .fa-circle-play:hover {
+  color: darkgrey;
+}
+.screen .main .step .step-me .fa-forward-step {
+  font-size: 23px;
+  transition: color 0.2s ease-out;
+}
+.screen .main .step .step-me .fa-forward-step:hover {
+  color: darkgrey;
+}
+
+.screen .main .step .step-me .fa-repeat {
+  transition: color 0.2s ease-out;
+}
+.screen .main .step .step-me .fa-repeat:hover {
+  color: darkgrey;
+}
